@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rayhan's Blog]]></title><description><![CDATA[A blog site built with gatsby]]></description><link>https://ershadul.me/my-blog</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 02 May 2021 14:19:21 GMT</lastBuildDate><item><title><![CDATA[How I created this blog site!]]></title><description><![CDATA[This is my first blog. In this blog, I’m going to show you, how I have created this blog site with comments. It’s very simple. I have used…]]></description><link>https://ershadul.me/my-blog/blog-1/</link><guid isPermaLink="false">https://ershadul.me/my-blog/blog-1/</guid><pubDate>Sun, 02 May 2021 08:38:51 GMT</pubDate><content:encoded>&lt;p&gt;This is my first blog. In this blog, I’m going to show you, how I have created this blog site with comments. It’s very simple. I have used gatsby and Github.&lt;/p&gt;
+&lt;h2&gt;Setup Development Environment&lt;/h2&gt;
+&lt;p&gt;Before we start, we have to make sure that we have all the necessary packages installed in our system. To prepare your development environment, follow this guide provided on the gatsby website. Follow up to the ‘Create a gatsby site’ section. &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.com/docs/tutorial/part-zero/&quot;&gt;Setup Development Environment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now, you should have these packages installed in your system.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; 1. node
+ 2. npm
+ 3. git
+ 4. gatsby-cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Generate gatsby site&lt;/h2&gt;
+&lt;p&gt;Next, we will use a starter template for creating our blog site. I have chosen this one - &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/&quot;&gt;gatsby-starter-blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Navigate to your desired directory and run the following command to create a clone of the starter template.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can choose your preferred name for the project instead of ‘my-blog’. Replace ‘my-blog’ in the command with your preferred name.&lt;/p&gt;
+&lt;p&gt;To build and run the project on your local server use this command&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If you visit the site (&lt;a href=&quot;http://localhost:8000/&quot;&gt;http://localhost:8000/&lt;/a&gt;) it may look like this.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/my-blog/static/357bfde5e8302f791043a57685cc23fd/e996b/gatsby-starter-blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.31645569620254%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAABdklEQVQoz52TwY7bIBBA99/zAZGlHHLKIcrJxxybVT4gp7bqpbUU2bjOgI0DIQE7DOAqtra1sslK2yeEGMETzAAv3RshdN77MMJ733Wdc24Iu3e89Nptomma1Wo1n8/jOJ5MJtvtdjabTafT5XIZRdFut/u78oGstY6iaLFYrNfrJEkA4HK5AICUsixLrfVHctu2Xzavm81rHMfGmPdLHx97wCHW7ICIxhhKKQDlR1n1jfdNKfVUttZ+//YVgAJllFLGj3Bq8qMuhAZpqDSI+FT+D0Y7O5/W5mdl9kdLz/hJ2eKeFARK4JJxoc5npdTpjXMfKqWGy7+XvfeirmTNZc1rXjLGyp5b/oxxzhljQojxFYyqHTp1DQ2Gof/csVuLPzKWgNhXmp4a7xw6hz2uH1hr7wr+T0bEQ54d8qwgKRS/CSF5nmdZRggpiiJNUyHE8HgeyCHcCn5Fd0Xn/e1XDP/E9Yzr9EC+uvCrahLeFif7LMm7t/0H+vRcBuMjtvUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;gatsby starter blog&quot;
+        title=&quot;gatsby starter blog&quot;
+        src=&quot;/my-blog/static/357bfde5e8302f791043a57685cc23fd/f058b/gatsby-starter-blog.png&quot;
+        srcset=&quot;/my-blog/static/357bfde5e8302f791043a57685cc23fd/c26ae/gatsby-starter-blog.png 158w,
+/my-blog/static/357bfde5e8302f791043a57685cc23fd/6bdcf/gatsby-starter-blog.png 315w,
+/my-blog/static/357bfde5e8302f791043a57685cc23fd/f058b/gatsby-starter-blog.png 630w,
+/my-blog/static/357bfde5e8302f791043a57685cc23fd/40601/gatsby-starter-blog.png 945w,
+/my-blog/static/357bfde5e8302f791043a57685cc23fd/e996b/gatsby-starter-blog.png 1050w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;At this point, you may want to commit your changes.&lt;/p&gt;
+&lt;h2&gt;Personalize the blog site&lt;/h2&gt;
+&lt;p&gt;Then, go to &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; and replace the values of the siteMetadata according to your preference. Mine looks like this.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;module.exports = {
+  siteMetadata: {
+    title: `My Blog`,
+    author: {
+      name: `Ershadul Hakim Rayhan`,
+      summary: `A passionate problem solver`,
+    },
+    description: `A blog site built with gatsby`,
+    siteUrl: `https://ershadul.me/my-blog`,
+    social: {
+      twitter: `ErshadulRayhan`,
+    },
+  },
+  ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Update the bio section by modifying the bio component.
+Replace the profile-pic and Twitter links with yours.&lt;/p&gt;
+&lt;h2&gt;Add new blog posts&lt;/h2&gt;
+&lt;p&gt;There are some example articles already added to this starter project. If you want to remove them, just remove them from the &lt;code class=&quot;language-text&quot;&gt;content/blog&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;To add a new blog article, create a new folder inside &lt;code class=&quot;language-text&quot;&gt;content/blog&lt;/code&gt; and inside that folder add an &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file. This &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file will contain the content of your article. As this is a markdown blog, you can put your markdown document in this &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;The format of the file should be like this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: New Beginnings
+date: &amp;quot;2015-05-28T22:40:32.169Z&amp;quot;
+description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+---
+
+Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;So, we can see this file contains some metadata between those dashes. Remember to put them in your articles to show the title, date, and description.&lt;/p&gt;
+&lt;p&gt;At this point, you have built a fully working blog site. You can commit your changes and push them to Github.
+I recommend hosting your blog on Github pages.&lt;/p&gt;
+&lt;h2&gt;Add comments to the blog (Optional)&lt;/h2&gt;
+&lt;p&gt;I am using &lt;a href=&quot;https://utteranc.es/&quot;&gt;utterances&lt;/a&gt; for adding comments to my blog. Utterances uses Github issues to save comments. It’s free and easy to use. To comment on posts the users have to log in using their Github and give utterances permission to their Github account.&lt;/p&gt;
+&lt;p&gt;Now, to add a comment section to your blog posts, follow the next steps.&lt;/p&gt;
+&lt;p&gt;To store the comments you need to create a public Github repo and give utterances app the permission for that Github repo. Visit &lt;a href=&quot;https://utteranc.es/&quot;&gt;utterances&lt;/a&gt; and read the instructions to create the script tag for the comment section.&lt;/p&gt;
+&lt;p&gt;I have created a repo for storing comments of my blog posts. The script tag looks like this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;script src=&amp;quot;https://utteranc.es/client.js&amp;quot;
+        repo=&amp;quot;[ENTER REPO HERE]&amp;quot;
+        issue-term=&amp;quot;pathname&amp;quot;
+        theme=&amp;quot;github-light&amp;quot;
+        crossorigin=&amp;quot;anonymous&amp;quot;
+        async&amp;gt;
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, we have to implement this script in our blog app.&lt;/p&gt;
+&lt;p&gt;Go to &lt;code class=&quot;language-text&quot;&gt;src/templates/blog-post.js&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;We are going to use &lt;code class=&quot;language-text&quot;&gt;useEffect&lt;/code&gt; hook for adding the script. We want the script to load after our component did mount.&lt;/p&gt;
+&lt;p&gt;Let’s import &lt;code class=&quot;language-text&quot;&gt;useEffect&lt;/code&gt; in the &lt;code class=&quot;language-text&quot;&gt;blog-post.js&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;  import React, { useEffect } from &amp;quot;react&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Then inside the &lt;code class=&quot;language-text&quot;&gt;BlogPostTemplate&lt;/code&gt; function add this&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;useEffect(() =&amp;gt; {
+    const script = document.createElement(&amp;#39;script&amp;#39;);
+    script.setAttribute(&amp;quot;src&amp;quot;, &amp;quot;https://utteranc.es/client.js&amp;quot;);
+    script.setAttribute(&amp;quot;crossorigin&amp;quot;,&amp;quot;anonymous&amp;quot;);
+    script.setAttribute(&amp;quot;async&amp;quot;, true);
+    script.setAttribute(&amp;quot;repo&amp;quot;, &amp;quot;github-username/repo-name&amp;quot;);
+    script.setAttribute(&amp;quot;issue-term&amp;quot;, &amp;quot;pathname&amp;quot;);
+    script.setAttribute( &amp;quot;theme&amp;quot;, &amp;quot;github-light&amp;quot;);
+
+    document.body.appendChild(script);
+
+  return () =&amp;gt; {
+    document.body.removeChild(script);
+  }
+  }, []);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Replace the attribute values according to your project. If you have done everything right, now you should see a comment box appearing on your blog.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Congratulations!&lt;/strong&gt; You have successfully built a blog site with a comment section.&lt;/p&gt;</content:encoded></item></channel></rss>
