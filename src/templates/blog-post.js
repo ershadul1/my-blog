@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
@@ -6,6 +6,23 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.setAttribute("src", "https://utteranc.es/client.js");
+    script.setAttribute("crossorigin","anonymous");
+    script.setAttribute("async", true);
+    script.setAttribute("repo", "ershadul1/my-blog-comments");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute( "theme", "github-light");
+
+    const commentSection = document.getElementById('comment-section');
+    commentSection.appendChild(script);
+
+  return () => {
+    commentSection.removeChild(script);
+  }
+  }, []);
+  
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
@@ -60,6 +77,7 @@ const BlogPostTemplate = ({ data, location }) => {
           </li>
         </ul>
       </nav>
+      <div id="comment-section" />
     </Layout>
   )
 }
