@@ -11,7 +11,9 @@ module.exports = {
       twitter: `ErshadulRayhan`,
     },
   },
+  pathPrefix: `/my-blog`,
   plugins: [
+    `gatsby-plugin-offline`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
