@@ -3,13 +3,13 @@ A blog site where I will write my blog articles.
 
 ## Project Description
 
-A blog site built using gatsby. The blog artilces can be written using markdown language. Users can create comments. I'm using utterances for comments feature.
+A blog site built using gatsby. The blog articles can be written using markdown language. Users can create comments. I'm using utterances for the comments feature.
 
 ## Features
 
 - The homepage lists all the blog posts.
-- Users can navigate to blog articles from homepage.
-- Users can post comments by signing in with thier Github account.
+- Users can navigate to blog articles from the homepage.
+- Users can post comments by signing in with their Github account.
 
 ## Screenshot
 
