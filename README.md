@@ -4,6 +4,7 @@ A blog site where I will write my blog articles.
 ## Project Description
 
 A blog site built using gatsby. The blog articles can be written using markdown language. Users can create comments. I'm using utterances for the comments feature.
+Read how I created this blog [here](https://ershadul.me/my-blog/blog-1/).
 
 ## Features
 
