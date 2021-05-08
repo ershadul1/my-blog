@@ -7,7 +7,7 @@ This is my first blog. In this blog, I'm going to show you, how I have created t
 
 ## Setup Development Environment
 
-Before we start, we have to make sure that we have all the necessary packages installed in our system. To prepare your development environment, follow this guide provided on the gatsby website. Follow up to the 'Create a gatsby site' section. 
+Before we start, we have to make sure that we have all the necessary packages installed in our system. To prepare your development environment, follow this guide provided on the gatsby website. Follow this guide up to the 'Create a gatsby site' section. 
 
 [Setup Development Environment](https://www.gatsbyjs.com/docs/tutorial/part-zero/)
 
@@ -36,7 +36,7 @@ To build and run the project on your local server use this command
 gatsby develop
 ```
 
-If you visit the site (http://localhost:8000/) it may look like this.
+If you visit the site, (http://localhost:8000/) it may look like this.
 
 ![](./gatsby-starter-blog.png)
 
